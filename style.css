@@ -108,7 +108,7 @@ h2 {
   font-weight: normal;
 }
 .sechighlight {
-  /*background-color: #f7f6f1;*/
+  background-color: #edf4ff;
   /* f7f6f1 */
 }
 #coursedesc {
@@ -122,4 +122,7 @@ h2 {
   position: absolute;
   bottom: 20px;
   right: 20px;
+}
+b {
+  font-weight: 700;
 }
