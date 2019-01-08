@@ -126,3 +126,6 @@ h2 {
 b {
   font-weight: 700;
 }
+.img-hover:hover {
+  opacity: 0.8;
+}
