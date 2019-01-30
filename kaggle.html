@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kaggle Competition | IDS 705</title>
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+  <!-- Google fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+
+  <!-- Google Analytics -->
+  <script>
+  </script>
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+
+<div id="header">
+
+  <a href="https://kylebradbury.github.io/ids705/">
+    <h1>IDS 705: Principles of Machine Learning</h1>
+  </a>
+  <div class='text-center'>
+    <h4>Duke University</h4>
+    <h4>Spring 2019</h4>
+  </div>
+
+  <div style="clear:both;"></div>
+</div>
+
+<div class="container sec instructions">
+
+  <h2 id="competition">Kaggle Competition</h2>
+  
+  <p><b>Competition Link: <a href='https://www.kaggle.com/c/solar-pv-in-aerial-imagery/'>Solar PV in Aerial Imagery</a></b><br></p>
+  
+
+  <p>Kaggle is a machine learning competition platform, and you will be competing with each other in teams to obtain the best performing machine learning algorithm. But it’s not only your rank on the Kaggle competition that matters, but how you and your team present of your solution and how clearly your team is able to communicate it.</p>
+
+  <p><em>Good luck! The competition ends February 27 at 11:59 Eastern Standard Time</em></p>
+
+  <h2 id="report">Report</h2>
+
+  <p>Through this project you will access aerial imagery data, process the data into a form to ready it for machine learning algorithms, train and test multiple supervised learning techniques, and evaluate the performance of your algorithms. Your report on your solution should be composed in a way that tells the story of your work in this competition. You will want to include the content below. The format below is meant to explicitly lay out the components that must be addressed, although your goal is to both clearly explain and get others excited about what you did, so you’re encouraged to be creative in how the material is presented. <i>No section of this report, unless otherwise stated, should be less than 250 words.</i> Figures should be used throughout to support your narrative.</p>
+
+  <ol>
+    <li><b>Abstract</b>. [150 words maximum] This should be the one paragraph that captures the significance of what you did and why you did it.</li>
+    <li><b>Introduction</b>. Provide a description of the problem and the value in finding a solution, motivate your reader as to why he/she should care about this question. The idea is to get your reader excited about the solution you are about to present.</li>
+    <li><b>Background</b>. This section should cite problems that have been previously addressed that relate to your work, and the key takeaways of the studies that explored that work. The idea here is to place the problem you’re working on in context and to let the reader know that you’re not working in a knowledge vacuum. For finding relevant literature, a good starting point is Google Scholar.</li>
+    <li><b>Data</b>. Describe and visualize your data. Make sure every caption fully describes the figure.  You may want to visualize the raw data and/or extracted features. What challenges are inherent to this problem? How might they be overcome?  What take away messages can you get simply from visualizing your data?</li>
+    <li><b>Methods</b>. Present your machine learning solution (a description of any preprocessing, feature extraction, classification/regression techniques) and why you made each of the choices you did. Discuss any methods that you didn’t create yourself and please cite relevant literature to support your claims. Also include a flow chart of your methodology to the reader can easily conceptualize your solution. Describe your approach to measuring generalization performance, what metric(s) you used and why. Imagine that you are writing this section so that someone could recreate your results.</li>
+    <li><b>Results</b>. Include a complete performance assessment that includes your validation approach (cross validation, train/validate/test split, etc.) and the key metrics of performance for the problem (ROC curves, PR curves, confusion matrices if applicable, etc.). You should also compare your outcomes to at one baseline model (a simple model to exhibit your improvements) in addition to comparison against random chance guessing in the classification setting. This section should be supported with visualizations including examples where your method worked well, examples where it failed, and hypotheses supported by evidence as to why in each case.</li>
+    <li><b>Conclusions</b>. It’s critical to have a strong ending and not just let the energy fizzle out of the report. Many readers, if pressed for time, will simply read your abstract and your conclusions.  In fact, you may want to start by writing your conclusions. Very succinctly recap the problem you were studying and what was your approach to the solution.  Focus on explaining the key takeaways from your work - these should not be merely a set of bullet points, but fleshed out conclusions. As you're writing your conclusions think about if the reader took nothing else away from reading your report, what would you want them to know most? Did you identify one particular approach that worked well? Was there a challenge that you faced that opens the door to working on solving a new problem?  What avenues of research would you pursue next?</li>
+    <li><b>Roles</b>. Since this is a team project, we want to know what your specific contribution was to this project. Provide detail on your individual role and how it contributed to the competition. Each team member should clearly articulate an individual role.</li>
+    <li><b>References</b> [no word limits]. An alphabetical list of references cited in this work. A minimum of 10 are required. Consider using the Zotero citation manager for collecting and compiling your references.</li>
+  </ol>
+
+  <p><b>Figures</b>. In your report, figures should be used to convey your ideas and EVERY figure should have a caption that clearly explains the figure's purpose and how to read it, axis labels (with units if applicable), a legend if more than one quantity is plotted, and should be referenced in the text (every figure has a clear point to the story that you tell and there are no figures just thrown in without an explained reason). If you use any figures that are not your own, the source of the figure should be explicitly cited as well. </p>
+
+  <p><b>Submission</b>. Your report will be submitted on Gitlab and you will ALSO submit THREE printed PDF versions of this report. Additionally, your team's final code (that corresponds to your highest kaggle leaderboard submission) will also be submitted on Gitlab. Code should be cleaned, easy to re-use and well-commented.</p>
+
+  <h2 id="peer_evaluation">Peer Evaluation</h2>
+  <p>Since this is a team project, you will also be evaluated by your teammates (and yourself). This is a chance to offer each other feedback and reflect on your own performance. You will be rating your fellow team members on the following criteria:</p>
+
+  <ol>
+    <li>Was dependable in attending meetings to work on the project</li>
+    <li>Did work accurately and completely</li>
+    <li>Completed work on time</li>
+    <li>Contributed positively to team discussions</li>
+    <li>Helped others when needed</li>
+    <li>Responded to communications in a timely manner</li>
+    <li>Treated other team members respectfully</li>
+    <li>Demonstrated a positive attitude about the team and its work</li>
+  </ol>
+
+  <p>You can <a href='https://github.com/kylebradbury/ids705/raw/master/assignments/PeerEvaluationTemplate.xlsx'>download the peer evaluation form here</a></p>.
+
+</div>
+
+<div class="sechighlight">
+<div id="footer">
+  <div id="footermsg">Website design based on the <a href="http://cs231n.stanford.edu/">Stanford CS231 course page</a></div>
+</div>
+</div>
+
+<!-- jQuery and Bootstrap -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

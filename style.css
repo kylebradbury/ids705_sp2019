@@ -129,3 +129,9 @@ b {
 .img-hover:hover {
   opacity: 0.8;
 }
+
+.instructions em {
+  font-style: normal;
+  font-weight: 700;
+  color: #007bff;
+}
